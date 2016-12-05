@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	font: Helvetica;
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-radial-gradient(white, white, #98FBFD); /* Safari 5.1 to 6.0 */
+ 	background: -o-radial-gradient(white, white, #98FBFD); /* For Opera 11.6 to 12.0 */
+  	background: -moz-radial-gradient(white, white, #98FBFD); /* For Firefox 3.6 to 15 */
+  	background: radial-gradient(white, white, #98FBFD); /* Standard syntax */
+	background-color: #fff;
+}
+
+/* HEADER */
+header {
+	color: #fff;
+	font-size: 3.5em;
+	text-align: center;
+	vertical-align: center;
+	background-color: #98FBFD;
+	margin: 5px 35px 5px 35px;
+	height: 60px;
+
+}
+
+/* NAVIGATION */
+nav {
+	position: relative;
+	text-align: center;
+	margin: 5px 25px 5px 25px;
+}
+
+button {
+	width: 120px;
+	height: 40px;
+	font: sans-serif;
+	font-size: 0.9em;
+	background-color: #98FBFD;
+	border-radius: 5%;
+}
+
+button:hover {
+	color: white;
+	background-color: gray;
+}
+
+
+/* CONTAINER */
+.container {
+	margin: 5px 35px 5px 35px;
+	clear: both;
+	background-color: #fff;
+}
+
+/* BUTTONS */
+
+
+/* TIME */
+.time {
+	font-style: italic;
+	font-size: 10px;s
+}
+
+
+/* TWEETS */
+li.tweet {
+	font-size: 1.5em;
+	border: 1px dotted blue;
+	margin-bottom: 5px;
+	padding: 5px 0;
+}
+
+/* ANCHOR */
+a {
+	font-size: 0.75em;
+}
+
